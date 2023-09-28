@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+    <title>Golub</title>
+</head>
+<body>
+    <header>
+        <h2>Sobre o</h2>
+        <h1>Golub</h1>
+        <div class="segundo-link">
+            <a href="/">Voltar</a>
+        </div>
+    </header>
+    <main>
+        <section class="primeira-sessao">
+            <div class="primeiro-container-3">
+                <h2>Quem somos nós?</h2>
+                <p>Somos 4 estudantes do Ensino Médio do Senac São Leopoldo, com foco em Tecnologia Aplicada à Internet.
+                    Este é um projeto que foi realizado nas componente de Projeto Profissional e Técnico durante o
+                    segundo trimestre.</p>
+
+                <p><b>Alexandre Lovato Ferreira:</b>Python</p>
+                <p><b>Charles Baltazar da Silva:</b>HTML e CSS</p>
+                <p><b>Leonardo Falcão de Matos:</b>HTML</p>
+                <p><b>Luisa da Silveira Soares</b>HTML e CSS</p>
+            </div>
+        </section>
+        <section class="primeira-sessao">
+            <div class="segundo-container-3">
+                <h2>Nossas propostas com o Golub:</h2>
+                <p>
+                    O nosso objetivo com esse blog é fazer as pessoas obterem o máximo de informação possível, estamos
+                    construindo algo o qual achamos que poderia ser útil de certa forma para transmitir conhecimento,
+                    combatendo as Fake News.
+                </p>
+            </div>
+        </section>
+        <section class="primeira-sessao">
+            <h2>O mascote:</h2>
+            <div class="terceiro-container-3">
+                <img src="{{ url_for('static', filename='MicrosoftTeams-image-removebg-preview.png') }}" alt="mascote" class="mascote">
+                <p> Nosso mascote também se chama Golub. Ele é um pombo porque seu nome significa "Pombo" em Bósnio. O verdadeiro significado para a origem
+                    desde nome é devido aos pombos correios de antigamente, onde as pessoas amarravam cartas em seus pés e eles entregavam a carta ao destinatário, passando informações, assim como nosso blog.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

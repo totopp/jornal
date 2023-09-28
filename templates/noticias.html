@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <title>Golub</title>
+</head>
+<body>
+    <header>
+    <h1>Notícias Cadastradas</h1>
+    <a href="/">Voltar</a>
+    </header>
+    {% if noticias %}
+        {% for noticia in noticias %}
+        <section class="primeira-sessao">
+          
+                <p class="titulo-noticia">{{ noticia.titulo }}</p>
+                <p class="conteudo-noticia">{{ noticia.conteudo }}</p>
+         </section>   
+        {% endfor %}
+    {% else %}
+            <p>Nenhuma notícia cadastrada</p>
+    {% endif %}
+
+        <p class="sessao-infografico">Infográficos sobre o PLÁGIO</p>
+        <div class="infografico">
+            <img src="/static/1.jpg" alt="1">
+            <img src="/static/2.jpg" alt="2">
+            <img src="/static/3.jpg" alt="3">
+            <img src="/static/4.jpg" alt="4">
+            <img src="/static/5.jpg" alt="5">
+        </div>
+        <div></div>
+</body>
+</html>

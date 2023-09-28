@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+    <title>Golub</title>
+   
+</head>
+<body>
+    <header>
+        <h2>Poste seu</h2>
+        <h1>Golub!</h1>
+        <div class="segundo-link">
+        <a href="/">Voltar</a>
+        </div>
+    </header>
+    <section class="sessao-cadastrar">
+        <form action="/cadastrar" method="post">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo">
+
+            <label for="conteudo">Post:</label>
+            <textarea name="conteudo" id="conteudo" cols="30" rows="10"></textarea>                
+
+            <input type="submit" value="Postar" class="enviar">                    
+
+                
+
+        </form>
+ 
+    </section>
+</body>
+</html>

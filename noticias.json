@@ -1,0 +1,29 @@
+{
+    "noticias": [
+        {
+            "id": 1,
+            "titulo": "teste",
+            "conteudo": "teste"
+        },
+        {
+            "id": 2,
+            "titulo": "aaaaaaaa",
+            "conteudo": "aaaaaaaaaaa"
+        },
+        {
+            "id": 3,
+            "titulo": "ISSO FUNCIONAAAAAAAAAAAAAAAAAA",
+            "conteudo": "SIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"
+        },
+        {
+            "id": 4,
+            "titulo": "PL\u00c1GIO!",
+            "conteudo": "Pl\u00e1gio, praticamente e literalmente \u00e9 o ato de escrever, postar ou assinar publicamente algo que n\u00e3o seja de autoria oficial da pessoa que est\u00e1 o praticando, pl\u00e1gio pode ser constitu\u00eddo em v\u00e1rias formas, seja em imagens, pinturas, escrituras e qualquer coisa que n\u00e3o seja oficialmente da pessoa cometendo o pl\u00e1gio.\r\n\r\nPode existir alguns tipos diferentes de aparecer, como o pl\u00e1gio direto, que \u00e9 literalmente a c\u00f3pia do original, por\u00e9m com uma falsa autoria de outra pessoa, sem refer\u00eancia do autor original, indica\u00e7\u00e3o ou cita\u00e7\u00e3o, e tamb\u00e9m o pl\u00e1gio indireto, que \u00e9 a reescrita do que \u00e9 dito em outras palavras para soar original, basicamente uma \u201cadapta\u00e7\u00e3o\u201d de palavras cujo querem dizer a mesma coisa, novamente sem a refer\u00eancia bibliogr\u00e1fica. O pl\u00e1gio de fontes \u00e9 outro deles, funcionando basicamente da seguinte maneira, o autor do pl\u00e1gio pega refer\u00eancias de outras obras e autores sem nem mesmo ler as obras usadas e sem saber o que est\u00e1 fazendo ou falando sobre o assunto, usando assim fontes secund\u00e1rias de pesquisa, o pl\u00e1gio consentido \u00e9 um dos tipos mais comuns visto que se baseia em copiar a obra ou o autor e adotar como seu, se tornando o autor do obra, como dito anteriormente criando uma \u201cfalsa autoria\u201d mas n\u00e3o de fato se tornando o autor principal da obra.\r\n\r\n"
+        },
+        {
+            "id": 5,
+            "titulo": "Bom dia!",
+            "conteudo": "Desejo a todos que lerem um bom dia!"
+        }
+    ]
+}
